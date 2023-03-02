@@ -1,0 +1,264 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
+
+body{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+text-decoration:none;
+font-family: 'League Spartan', sans-serif;
+
+}
+
+/* universal headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    color: #0e0e0e;
+    font-weight:400 ;
+    font-size: 1.5rem;
+}
+/* universal padding */
+.section-p1{
+    padding:40px 80px;
+
+}
+/* universal margin */
+#section-m1{
+    margin:30px 0px;
+}
+/* universal button */
+.normal-btn{
+    padding:14px 36px;
+    background-color: aqua;
+    color:black;
+    border:none;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.normal-btn:hover{
+    background-color: #516fa7;
+    color: white;
+    
+}
+/* universal links */
+a{
+    text-decoration: none;
+    color:inherit;
+
+}
+/* navigation a new section */
+
+nav{
+    padding: 2px;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 6;
+    
+}
+ul{
+    padding-right: 27px;
+    height: auto;
+    margin: 0;
+    text-transform: capitalize;
+}
+li{
+    font-size:inherit;
+    font-weight: 400;
+    margin-right:20px;
+    display: inline-block;
+}
+.bg-image
+{
+    background-image: url(44.jpg); 
+    height: 100vh;
+    background-position: 25% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+nav span img{
+    width:80px;
+}
+
+/* section-2 */
+.first-seciton{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.text-style h5{
+    font-weight:400;
+    font-size: 1.5rem;
+
+}
+.text-style h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.first-seciton p{
+    width: 400px;
+}
+/* for Im */
+.im{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:18px;
+    
+
+}
+.im img{
+    width: 340px;
+   height:300px;
+   object-fit: cover;
+   object-position: center center;
+   border-radius: 8px;
+}
+/* second main section one */
+.BG{
+    background-image: url(BG2.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center cente;
+    position: relative;
+}
+.bginnertext{
+    position: relative;
+    color:white;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 18px;
+    
+}
+
+.roam{
+    
+    width: 600px;
+    text-align: center;
+
+}
+.roam h4{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+.roam p{
+    font-weight:400;
+    font-size: 1rem;
+
+    
+}
+
+/* mister p1 */
+#p1{
+    display: flex;
+    padding: 72px 4px;
+    align-items: center;
+
+}
+
+.nt{
+    width: 390px;
+    height:420px;
+     position: relative;
+    left: 40px;
+    z-index: 2;
+}
+
+.nt img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+        object-fit: cover;
+            object-position: center center;
+
+
+}
+.nr{
+    background-color: rgb(23, 23, 23);
+    width:900px;
+    overflow: hidden;
+    height:500px;position: relative;
+    right: 18px;
+    padding: 33px 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.nr h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.center{
+    width: 80%;
+}
+
+.nr p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #fff;
+}
+/* reason */
+
+footer {
+    flex-shrink: 0;
+    background-color: #CEC1BB;
+  }
+
+  .footer-container,p {
+    max-width:100%;
+    margin:0;
+    margin-left:20px;
+    display: flex;
+    padding:30px 0;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    flex-shrink: 0;
+    margin-right: 54px;
+  }
+  
+  .footer-menu {
+    display: flex;
+  }
+  
+  .footer-item:nth-child(n+2) {
+    margin-left: 25px;
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .last p{
+    padding-right:12px;
+    text-align: left;
+  }
